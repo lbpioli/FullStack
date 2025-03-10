@@ -4,16 +4,58 @@
         <title> EXERCICIO </title>
         <meta charset="UTF-8">
         <link href="estilo3.css" rel="Stylesheet">
+        <style>
+            /* Estilo para a nova imagem */
+            .imagem-flutuante {
+                position: absolute; /* Posicionamento absoluto */
+                top: 60px;  /* Distância do topo da página */
+                left: 10%;   /* Centraliza horizontalmente */
+                transform: translateX(-50%);  /* Ajusta para que a imagem fique centralizada */
+                width: 175px;  /* Tamanho da imagem */
+            }
+            .imagem-flutuante2 {
+                position: absolute; /* Posicionamento absoluto */
+                top: 60px;  /* Distância do topo da página */
+                left: 90%;   /* Centraliza horizontalmente */
+                transform: translateX(-50%);  /* Ajusta para que a imagem fique centralizada */
+                width: 150px;  /* Tamanho da imagem */
+            }
+
+
+            h3 {
+                
+                font-family: 'Comic Sans MS', cursive, sans-serif; /* Fonte Comic Sans MS no footer */
+                font-size: 15pt;
+                }
+
+            p{
+                font-family: sans-serif;
+                font-size: 20pt;
+
+            }
+            footer img {
+                float: right; /* Faz a imagem flutuar para a direita */
+                width: 125px; /* Ajuste do tamanho da imagem */
+                padding: 18px 20px;
+                justify-content: space-between; 
+        }
+            
+        </style>
+
     </head>
+    
     <body>
         <h1>C++ e Java</h1>
+        <img src="c++.png" alt="Nova Imagem" class="imagem-flutuante">
+        <img src="java.png" alt="Nova Imagem" class="imagem-flutuante2">
+
         <header>
             <nav>
                 <ul>
-                    <li><a href="home.html">Home</a></li>
-                    <li><a href="Livros.html">Livros</a></li>
-                    <li><a href="Videos.html">Videos</a></li>
-                    <li><a href="Contatos.html">Contatos</a></li>
+                    <li><a href="home.html">HOME</a></li>
+                    <li><a href="Livros.html">LIVROS</a></li>
+                    <li><a href="Videos.html">VIDEOS</a></li>
+                    <li><a href="Contatos.html">CONTATOS</a></li>
                 </ul>
             </nav>
         </header>
@@ -30,8 +72,8 @@
         <img src="book3.jpg" width="200" height="300" alt="Imagem 1">
 
         <h2>Aprenda a prgramar com Java e C++ na FEI</h2>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/tYARU4_ikmY?si=tDqSH3VwYj0b-xLd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3652.648694544392!2d-46.58197282458456!3d-23.724236267596396!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce4158ef9c7c05%3A0x776b798985695f52!2sFEI%20-%20Campus%20S%C3%A3o%20Bernardo%20do%20Campo!5e0!3m2!1spt-BR!2sbr!4v1740445210964!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <iframe width="450" height="450" src="https://www.youtube.com/embed/tYARU4_ikmY?si=tDqSH3VwYj0b-xLd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <iframe width="450" height="450" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3652.648694544392!2d-46.58197282458456!3d-23.724236267596396!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce4158ef9c7c05%3A0x776b798985695f52!2sFEI%20-%20Campus%20S%C3%A3o%20Bernardo%20do%20Campo!5e0!3m2!1spt-BR!2sbr!4v1740445210964!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         <h2>Contatos</h2>
 
         <table>
@@ -49,8 +91,11 @@
             </tr>
         </table>
         <footer>
-            <p>Desejamos um excelente semestre a todos</p>
-            <p>(Fonte Usada: Comic Sans MS, tamanho 15pt</p>
+            <img src="css.png" alt="Logo">
+            <h3>Desejamos um excelente semestre a todos</h3>
+            <h3>Fonte Usada: Comic Sans MS, tamanho 15pt</h3>
+            <img src="html.png" alt="Logo">
+
         </footer>
 
 

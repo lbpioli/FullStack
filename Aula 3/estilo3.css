@@ -3,6 +3,26 @@ body {
     text-align: center;
 }
 
+h1 {
+    color:#006618;
+    background-color: #f8d0a3;
+    font-size: 50px;
+    text-align: center;
+    padding: 10px;
+    position: static;
+    width: 95%;
+    height: 200px;
+    display: flex;
+    justify-content: center; /* Centraliza na horizontal */
+    align-items: center; /* Centraliza na vertical */
+    border: 4px solid #12025a; /* Borda de 2px, estilo sólido e cor vermelha escura */
+}
+
+h1 img.logo{
+    margin-left: 100px;
+}
+
+
 img {
     margin-right: 50px; /* Adiciona 20px de espaço à direita de cada imagem */
 }
@@ -14,16 +34,38 @@ iframe {
 header {
     background-color: #78c5e4;
     position: static;
-    width: 80%;
+    width: 97.5%;
+    height: 50px;
     top: 10;
     left: 10;
-    z-index: 100;
-    
+
+    /* Usando Flexbox para centralizar o conteúdo verticalmente */
+    display: flex;
+    justify-content: center; /* Centraliza na horizontal */
+    align-items: center; /* Centraliza na vertical */
+    margin-top: -33px;
 }
+
+nav ul {
+    display: flex; /* Torna o <ul> um container flexível */
+    justify-content: space-around; /* Distribui o espaço igualmente entre os itens */
+    padding: 0; /* Remove o padding padrão */
+    list-style: none; /* Remove os pontos da lista */
+}
+
+nav ul li a {
+    text-decoration: none; /* Remove o sublinhado */
+    color: #5a0202; /* Cor do texto */
+    font-weight: bold; /* Deixa o texto mais destacado */
+    margin: 50px; /* Espaçamento entre os itens, opcional */
+}
+
 p {
     font-family:sans-serif; 
-    color:#ac07c2;
+    color:#6d047a;
     text-align: center;
+    width: 100%;
+    
 
     
 }
@@ -39,10 +81,18 @@ nav ul li {
 
 footer {
     background-color: #f8d0a3;
+    height: 200px;
     color: rgb(0, 0, 0);
     text-align: center;
-    padding: 10px;
-    position: fixed;
+    padding: 0px;
+    position: static;
     width: 100%;
     bottom: 0;
+    font-weight: normal;
+    margin: 0;
+    display: flex; /* Usando flexbox */
+    justify-content: space-between; /* Coloca os itens nas extremidades (esquerda e direita) */
+    align-items: center; /* Alinha os itens verticalmente ao centro */
+    padding: 20px; /* Espaçamento interno no footer */
+
 }       
