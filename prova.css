@@ -1,0 +1,63 @@
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+ul li a{
+    position: static;
+    border: 3px solid;
+}
+
+#nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+#nav a:hover{
+    color: aquamarine;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+}
+
+#bla{
+    display: flex;
+    justify-content: center;
+
+}
+
+#friends{
+    display: flex;
+    justify-content: center;
+
+}
+
+.container {
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    gap: 5px; /* Espaço entre as imagens */
+}
+
+.img-maior {
+
+    width: 500px;
+    height: 500px;
+
+}
+
+.coluna-menor {
+    justify-content:center ;
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Espaço entre as imagens menores */
+}
+
+.img-menor {
+    width: 100%; /* Ocupa toda a largura da div */
+    height: auto;
+}
