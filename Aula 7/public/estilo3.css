@@ -1,0 +1,143 @@
+body {
+    background-color: #cac8c8;
+    text-align: center;
+    
+}
+
+h1 {
+    color:#006618;
+    background-color: #f8d0a3;
+    font-size: 50px;
+    text-align: center;
+    padding: 10px;
+    position: static;
+    width: 95%;
+    height: 200px;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    border: 4px solid #12025a; 
+}
+
+h1 img.logo{
+    margin-left: 100px;
+}
+
+
+img {
+    margin-right: 50px; 
+}
+
+iframe {
+    margin-right: 50px; 
+}
+
+header {
+    background-color: #78c5e4;
+    position: static;
+    width: 97.5%;
+    height: 50px;
+    top: 10;
+    left: 10;
+
+    
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    margin-top: -33px;
+}
+
+nav ul {
+    display: flex; 
+    justify-content: space-around; 
+    padding: 0; 
+    list-style: none; 
+}
+
+nav ul li a {
+    text-decoration: none; 
+    color: #5a0202; 
+    font-weight: bold; 
+    margin: 50px; 
+}
+
+p {
+    font-family:sans-serif; 
+    color:#6d047a;
+    text-align: center;
+    width: 100%;
+    
+
+    
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}   
+nav ul li {
+    margin: 5px;
+}
+
+footer {
+    background-color: #f8d0a3;
+    height: 200px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 0px;
+    position: static;
+    width: 100%;
+    bottom: 0;
+    font-weight: normal;
+    margin: 0;
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 20px; 
+
+}       
+
+
+table {
+    border-collapse: collapse;
+    border: 3px dashed red;
+    
+    background-color: #cac8c8;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: left;
+    
+}
+
+th {
+    font-weight: bold;
+    color: red;
+    text-align: center;
+
+}
+
+.container {
+    background-color: yellow;
+    padding: 15px;
+    border: 1px solid black;
+    width: fit-content;
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+a {
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
