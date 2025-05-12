@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Cadastro</title>
+  <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+  <!-- Formulário que envia dados para a rota /cadastra usando método POST -->
+  <form action="/cadastra" method="post">
+    <h2>Cadastro</h2>
+    <!-- Campo para nome do usuário -->
+    <input type="text" name="usuario" placeholder="Usuário" required><br>
+    <!-- Campo para senha -->
+    <input type="password" name="senha" placeholder="Senha" required><br>
+    <!-- Botão para enviar o formulário -->
+    <button type="submit">Cadastrar</button>
+  </form>
+</body>
+</html>

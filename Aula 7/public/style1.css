@@ -1,0 +1,16 @@
+body {
+  background-color: #f0f0f0; /* Cor de fundo da página */
+  display: flex; /* Centraliza o conteúdo */
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Altura total da tela */
+  font-family: Arial, sans-serif;
+}
+
+form {
+  background-color: white; /* Fundo branco para o formulário */
+  padding: 20px;
+  border-radius: 10px; /* Cantos arredondados */
+  box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Sombra leve */
+  text-align: center;
+}
