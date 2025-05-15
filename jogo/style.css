@@ -1,0 +1,68 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  color: #333;
+  padding: 20px;
+}
+
+header {
+  background-color: #0066cc;
+  color: white;
+  padding: 15px;
+  text-align: center;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2 );
+}
+
+footer {
+  text-align: center;
+  margin-top: 40px;
+  color: #777;
+}
+
+.dev-card {
+  background-color: #f9f9f9; /* fundo claro */
+  border-radius: 8px;        /* cantos arredondados */
+  padding: 15px 20px;        /* espaço interno */
+  margin-bottom: 20px;       /* espaço entre os cards */
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* sombra suave */
+}
+
+.dev-card:hover {
+  box-shadow: 0 8px 15px rgba(0,0,0,0.15); /* sombra mais forte */
+}
+
