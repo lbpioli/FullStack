@@ -1,11 +1,9 @@
-/* Reset básico */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* Fundo preto sólido */
 body {
   font-family: 'Orbitron', Arial, sans-serif;
   background-color: black;
@@ -108,7 +106,6 @@ canvas#gameCanvas {
   background-color: #001822;
 }
 
-/* Card do desenvolvedor */
 .dev-card {
   background-color: rgba(20, 40, 60, 0.8);
   border-radius: 12px;
@@ -123,7 +120,6 @@ canvas#gameCanvas {
   box-shadow: 0 0 30px #00ffff;
 }
 
-/* Footer */
 footer {
   text-align: center;
   margin-top: 60px;

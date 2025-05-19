@@ -17,18 +17,15 @@ window.onload = () => {
   const jogadorImg = new Image();
   jogadorImg.src = "img/Ship_5.png";
 
-  // Quando clicar no botão, inicia o jogo
   document.getElementById("startButton").addEventListener("click", () => {
     if (!jogoIniciado) {
       jogoIniciado = true;
 
-      // Começa os ciclos do jogo
       intervaloCena = setInterval(desenharCena, 1000 / 60);
       intervaloInimigos = setInterval(criarInimigo, 2000);
     }
   });
 
-  // Movimento do jogador com teclado
   document.addEventListener("keydown", (event) => {
     if (!jogoIniciado) return;
 
@@ -48,7 +45,6 @@ window.onload = () => {
     }
   });
 
-  // Clique do mouse para atirar
   canvas.addEventListener("click", (event) => {
     if (!jogoIniciado) return;
 
@@ -75,20 +71,16 @@ window.onload = () => {
   function desenharCena() {
     ctx.clearRect(0, 0, canvas.width, canvas.height);
 
-    // fundo preto
     ctx.fillStyle = "black";
     ctx.fillRect(0, 0, canvas.width, canvas.height);
 
-    // HUD
     ctx.fillStyle = "white";
     ctx.font = "20px Arial";
     ctx.fillText("Vidas: " + vidas, 10, 30);
     ctx.fillText("Pontos: " + pontos, 10, 60);
 
-    // jogador
     ctx.drawImage(jogadorImg, jogadorX, jogadorY, 60, 60);
 
-    // inimigos
     inimigos.forEach((inimigo, index) => {
       inimigo.y += inimigo.velocidade;
 
@@ -112,7 +104,6 @@ window.onload = () => {
       }
     });
 
-    // colisões tiro com inimigos
     tiros.forEach((tiro, tIndex) => {
       inimigos.forEach((inimigo, iIndex) => {
         if (colidiu(tiro, inimigo)) {
@@ -123,7 +114,6 @@ window.onload = () => {
       });
     });
 
-    // tiros
     tiros.forEach((tiro, index) => {
       tiro.y -= 10;
 
