@@ -32,16 +32,16 @@ window.onload = () => {
     const tecla = event.key;
 
     if (tecla === "ArrowLeft" || tecla === "a") {
-      jogadorX -= 10;
+      jogadorX -= 20;
     }
     if (tecla === "ArrowRight" || tecla === "d") {
-      jogadorX += 10;
+      jogadorX += 20;
     }
     if (tecla === "ArrowUp" || tecla === "w") {
-      jogadorY -= 10;
+      jogadorY -= 20;
     }
     if (tecla === "ArrowDown" || tecla === "s") {
-      jogadorY += 10;
+      jogadorY += 20;
     }
   });
 
